@@ -1,4 +1,4 @@
-@media  screen  and (min-width:300px) and (max-width:700px) {
+@media  screen  and (min-width:300px) and (max-width:500px) {
 
             body{
 
@@ -13,6 +13,231 @@
 
             header > .logos >img{
 
-                width: 100px;
+                width: 200px;
+                margin-top: 2px;
+                margin-left: 25%;
+            }
+
+         
+            /*-----Localisation--*/
+
+            .localisation_search {
+
+                margin-left: 28%;
+            }
+
+            .localisation{
+
+                margin-top: 2px;
+                width: auto;
+            }
+
+            /*----section-----*/
+
+            .titre_page_acceuil{
+
+                width: auto;
+                margin-left: 0px;
+                text-align: center;
+            }
+
+            .titre_page_acceuil > input{
+
+                font-size: 23px;
+                margin-left: 0px;
+                margin-top: 20px;
+            }
+
+             /*----fonctionnement-----*/
+
+
+             .fonctionnement{
+             margin-left: 0px;
+             width: auto;
+
+             }
+
+             .fonctionnement h1{
+
+                font-size: x-large;
+                margin-left: -17px;
+            }
+
+            .btn_menu{
+
+                padding-top: 13px;
+                margin-left: auto;
+            }
+
+            .btn_function{
+
+                width: 298px;
+            }
+
+
+                 /*----restaurant-----*/
+            .restaurants > h1 {
+                margin-left: 22px;
+            
+            }
+
+            .Card_restaurants > a > img {
+                height: 246px;
+                width: 332px;
+
+            
+            }
+
+            .Card_restaurants {
+            margin-left: 12px;
+
+            }
+
+            .Card_restaurants span > p{
+            top: -249px;
+            left: 241px;
+            }
+
+            .fa-heart {
+
+                position: relative;
+                top: -2em;
+                left: 260px;
+                font-size: 34px;
+            }
+
+
+            footer{
+
+                margin-top: 60px;
+            }
+
+            .footer > img {
+                
+                width: 111px;
+                padding-top: 20px;
             }
 }
+
+
+@media  screen  and (min-width:501px) and (max-width:700px) {
+
+    body{
+
+        width: auto;
+        grid-template-columns: 100%;
+    }
+    
+    header > .logos{
+
+        margin-left: 0px;
+    }
+
+    header > .logos >img{
+
+        width: 200px;
+        margin-top: 2px;
+        margin-left: 35%;
+    }
+
+ 
+    /*-----Localisation--*/
+
+    .localisation_search {
+
+        margin-left: 35%;
+    }
+
+    .localisation{
+
+        margin-top: 2px;
+        width: auto;
+    }
+
+    /*----section-----*/
+
+    .titre_page_acceuil{
+
+        width: auto;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .titre_page_acceuil > input{
+
+        font-size: 23px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+     /*----fonctionnement-----*/
+
+
+     .fonctionnement{
+     margin-left: 0px;
+     width: auto;
+
+     }
+
+     .fonctionnement h1{
+
+        font-size: x-large;
+        margin-left: -17px;
+    }
+
+    .btn_menu{
+
+        padding-top: 13px;
+margin-left: 0px;
+    }
+
+    .btn_function{
+
+        width: 298px;
+    }
+
+
+         /*----restaurant-----*/
+    .restaurants > h1 {
+        margin-left: 22px;
+    
+    }
+
+    .Card_restaurants > a > img {
+        height: 246px;
+        width: 332px;
+
+    
+    }
+
+    .Card_restaurants {
+    margin-left: none;
+
+    }
+
+    .Card_restaurants span > p{
+    top: -249px;
+    left: 241px;
+    }
+
+    .fa-heart {
+
+        position: relative;
+        top: -2em;
+        left: 260px;
+        font-size: 34px;
+    }
+
+
+    footer{
+
+        margin-top: 60px;
+    }
+
+    .footer > img {
+        
+        width: 111px;
+        padding-top: 20px;
+    }
+}
+
