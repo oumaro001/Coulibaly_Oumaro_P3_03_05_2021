@@ -146,3 +146,154 @@
         padding-top: 20px;
     }
 }
+
+/*----------Tablette---------*/
+@media screen and (min-width:701px) and (max-width:1200px) {
+
+    body {
+
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        grid-template-columns: 100%;
+    }
+
+    header>.logos {
+
+        margin-left: 0px;
+    }
+
+    header>.logos>img {
+
+        width: 200px;
+        margin-top: 2px;
+        margin-left: 37%;
+    }
+
+
+    /*-----Localisation--*/
+
+    .localisation_search {
+
+        margin-left: 40%;
+    }
+
+    .localisation {
+
+        margin-top: 2px;
+        width: auto;
+    }
+
+    /*----section-----*/
+
+    .titre_page_acceuil {
+
+        width: auto;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .titre_page_acceuil>input {
+
+        font-size: 23px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    /*----fonctionnement-----*/
+
+    menu {
+
+        display: flex;
+        align-items: center;
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fonctionnement {
+        margin-left: 0%;
+
+
+    }
+
+    .fonctionnement h1 {
+
+        font-size: x-large;
+        margin-left: -17px;
+    }
+
+    .btn_menu {
+
+        padding-top: 13px;
+        margin-left: -31px;
+    }
+
+    .btn_function {
+
+        width: 498px;
+    }
+
+
+    /*----restaurant-----*/
+
+    section {
+
+        width: auto;
+    }
+
+    .restaurants>h1 {
+        margin-left: 22px;
+
+    }
+
+    .Card_restaurants>a>img {
+        height: 246px;
+        width: 632px;
+        object-fit: cover;
+
+
+    }
+
+    .cards_section {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+
+    .Card_restaurants {
+        margin-left: 0px;
+
+    }
+
+    .Card_restaurants span>p {
+        top: -249px;
+        left: 534px;
+    }
+
+    .fa-heart {
+
+        position: relative;
+        top: -2em;
+        left: 560px;
+        font-size: 34px;
+    }
+
+    /*---footer---*/
+
+    footer {
+
+        margin-top: 60px;
+    }
+
+    .footer>img {
+
+        width: 111px;
+        padding-top: 20px;
+    }
+}
+

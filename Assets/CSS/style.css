@@ -141,7 +141,9 @@ article {
 
 .fonctionnement {
 
-    margin-left: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .btn_function {
