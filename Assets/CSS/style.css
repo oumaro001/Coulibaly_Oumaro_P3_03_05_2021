@@ -122,11 +122,8 @@ aside {
 
 .titre_page_acceuil>input:hover {
 
-    background-color: #9356DC;
-    background-image: linear-gradient(to top left,
-            rgba(0, 0, 0, .2),
-            rgba(0, 0, 0, .2) 30%,
-            rgba(0, 0, 0, 0));
+    background-color: rgb(252, 161, 240);
+    box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .5)
 }
 
 /*----FONCTIONNEMENT-----*/
@@ -150,7 +147,7 @@ article {
 
     display: flex;
     border: 7px solid #d3d3d300;
-    width: 350px;
+    width: 650px;
     border-radius: 18px;
     background: rgb(236, 236, 236);
     margin-top: 20px;
@@ -222,7 +219,6 @@ section {
 
 
 
-
 .Card_restaurants {
 
     border: 0px solid white;
@@ -263,6 +259,11 @@ section {
     width: 515px;
     border-radius: 12px 12px 0px 0px;
 
+}
+
+.cards_section {
+
+    margin-left: 35px;
 }
 
 .text_card {
