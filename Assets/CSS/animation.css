@@ -1,5 +1,5 @@
 /*----like-------*/
-.fa-heart{
+.fa-heart {
     transition: color 1s;
 
 }
@@ -7,28 +7,28 @@
 
 
 
-.like >span{
+.like>span {
 
-position: relative;
-color: white;
-top: 0em;
-left: 38px;
-font-size: 34px;
-mix-blend-mode: lighten;
+    position: relative;
+    color: white;
+    top: 0em;
+    left: 38px;
+    font-size: 34px;
+    mix-blend-mode: lighten;
 }
 
 
 
 
-.fa-heart:hover{
+.fa-heart:hover {
 
-color: #E77EDE;
+    color: #E77EDE;
 }
 
 
 /*-----------btn commande-----*/
 
-.btn_commande{
+.btn_commande {
 
 
     border: 13px solid #9356DC;
@@ -36,13 +36,14 @@ color: #E77EDE;
     color: white;
     font-size: 15px;
     width: 200px;
-height: 100px;
-margin-left: 41%;
+    height: 100px;
+    margin-left: 41%;
     border-radius: 21px;
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
     font-size: 2rem;
+    cursor: pointer;
     text-align: center;
     color: #FFF;
     border-radius: 38px;
@@ -52,5 +53,19 @@ margin-left: 41%;
             rgba(0, 0, 0, .2),
             rgba(0, 0, 0, .2) 30%,
             rgba(0, 0, 0, 0));
-            
+
+}
+
+
+.btn_commande:hover {
+
+    background-color: rgb(252, 161, 240);
+    box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .5)
+}
+
+
+.btn_commande:active {
+
+    background-color: rgb(252, 161, 240);
+    box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .5)
 }
