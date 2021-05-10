@@ -1,3 +1,5 @@
+@import url(./animation.css);
+
 body {
 
     font-family: 'Roboto', sans-serif;
@@ -21,11 +23,6 @@ a {
     text-decoration: none !important;
 }
 
-.fa-heart:hover {
-
-    background-color: #E77EDE;
-
-}
 
 /*----HEADER-----*/
 header {

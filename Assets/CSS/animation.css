@@ -1,0 +1,56 @@
+/*----like-------*/
+.fa-heart{
+    transition: color 1s;
+
+}
+
+
+
+
+.like >span{
+
+position: relative;
+color: white;
+top: 0em;
+left: 38px;
+font-size: 34px;
+mix-blend-mode: lighten;
+}
+
+
+
+
+.fa-heart:hover{
+
+color: #E77EDE;
+}
+
+
+/*-----------btn commande-----*/
+
+.btn_commande{
+
+
+    border: 13px solid #9356DC;
+    background: #9356DC;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+height: 100px;
+margin-left: 41%;
+    border-radius: 21px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: #FFF;
+    border-radius: 38px;
+    background-color: #E77EDE;
+    box-shadow: 1px 6px 6px 2px rgba(5, 5, 5, 0.1);
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, .2),
+            rgba(0, 0, 0, .2) 30%,
+            rgba(0, 0, 0, 0));
+            
+}

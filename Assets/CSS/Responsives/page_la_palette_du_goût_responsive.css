@@ -1,0 +1,143 @@
+@import url(./animation.css);
+
+
+@media screen and (min-width:320px) and (max-width:700px) {
+
+        body{
+
+            display: grid;
+grid-template-columns: 379px;
+grid-template-rows: 80px 281px 1600px 274px;
+grid-template-areas: "header" "img" "section" "footer";
+width: auto;
+margin: 0px auto;
+        }
+
+
+        /*------header-----*/
+header{
+
+    grid-area: header;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+header > img{
+
+    margin-left: 1%;
+margin-top: 20px;
+width: 200px;
+    
+}
+
+.fa-arrow-left{
+
+    font-size: 25px;
+margin-left: 39px;
+position: relative;
+left: -31px;
+top: -8px;
+}
+
+/*------image de fond-----*/
+
+
+.img_fond{
+
+    grid-area: img;
+}
+
+.img_fond > img{
+
+
+    width: 100%;
+    height: 21em;
+}
+
+/*------section-----*/
+
+section{
+
+
+    border: 9px solid aliceblue;
+    background: aliceblue;
+    border-radius: 49px 51px 0% 0%;
+}
+
+
+h1{
+
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin-left: 14px;
+    margin-top: 50px;
+}
+
+.like{
+
+    float: right;
+margin-right: 23px;
+font-size: 29px;
+margin-top: -48px;
+color: black;
+}
+
+/*-----------menu--------------*/
+
+
+.menu{
+
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+h2{
+
+    border-bottom: 3px solid #99E2D0;
+    width: 63px;
+}
+
+.btn_choise{
+
+    width: 92%;
+
+}
+
+a{
+
+    font-size: 13px;
+padding-top: 18px;
+}
+.btn_choise > span{
+
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+.block_btn_choise{
+
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.btn_commande{
+
+
+    margin-left: 15%;
+margin-top: 20%;
+width: 246px;
+height: 62px;
+font-size: 23px;
+}
+}
