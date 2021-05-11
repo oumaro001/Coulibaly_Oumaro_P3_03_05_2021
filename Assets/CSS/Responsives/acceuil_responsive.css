@@ -94,8 +94,13 @@
     }
 
     .restaurants>h1 {
-        margin-left: 22px;
+        margin-left: 9%;
 
+    }
+
+    .restaurants{
+
+        margin-left: -6%;
     }
 
     .Card_restaurants>a>img {
