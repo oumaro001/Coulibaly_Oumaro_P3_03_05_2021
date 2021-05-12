@@ -1,22 +1,22 @@
 @import url(./animation.css);
 
 
-@media screen and (min-width:350px) and (max-width:700px) {
+@media screen and (min-width:350px) and (max-width:480px) {
 
 
 
             *{
 
-                max-width: 100%;;
+                max-width: 700px;
             }
     body {
 
         display: grid;
-        grid-template-columns: 379px;
-        grid-template-rows: 64px 281px 1600px 274px;
+        grid-template-rows: 64px 281px  1600px 274px;
         grid-template-areas: "header""img""section""footer";
         width: auto;
         max-width: 100%;
+        margin: 0 auto;
     }
 
 
@@ -26,7 +26,6 @@
         grid-area: header;
         margin-top: 10px;
         margin-left: 10px;
-        width: 100%;
     }
 
     header>img {
@@ -52,25 +51,25 @@
     .img_fond {
 
         grid-area: img;
-        width: 100%;
     }
 
     .img_fond>img {
 
 
         max-width: 100%;
-max-height: 19REM;
-    }
+        max-height: 20REM;
+        }
 
     /*------section-----*/
 
     section {
 
 
-        border: 9px solid aliceblue;
-        width: 100%;
-        background: aliceblue;
-        border-radius: 49px 51px 0% 0%;
+        border: 9px solid #F6F6F6;
+width: 95%;
+background: #F6F6F6;
+border-radius: 38px 38px 0% 0%;
+margin-top: -12px;
     }
 
 
@@ -97,10 +96,8 @@ max-height: 19REM;
 
     .menu {
 
-        margin-left: 1%;
-        width: 100%;
+        margin-left: 0%;
 
-        margin-right: 1%;
         margin-top: 30px;
         display: flex;
         justify-content: space-around;
