@@ -3,7 +3,7 @@
 
 *{
 
-    max-width: 1440px;
+    max-width: 1840px;
     font-family: 'Roboto', sans-serif;
 
     
@@ -46,8 +46,8 @@ header >img{
 section{
 
 
-    border: 9px solid rgb(231, 230, 230);
-background: aliceblue;
+    border: 9px solid #F6F6F6;
+background: #F6F6F6;
 border-radius: 6% 6% 0% 0%;
 }
 
