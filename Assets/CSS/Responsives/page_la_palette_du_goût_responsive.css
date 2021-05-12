@@ -1,13 +1,13 @@
 @import url(./animation.css);
 
-
+/*--------Smartphone----------------*/
 @media screen and (min-width:350px) and (max-width:480px) {
 
 
 
             *{
 
-                max-width: 700px;
+                max-width: 480px;
             }
     body {
 
@@ -30,7 +30,7 @@
 
     header>img {
 
-        margin-left: 1%;
+        margin-left: 8.5%;
         margin-top: 12px;
         width: 200px;
 
@@ -67,7 +67,6 @@
 
         border: 9px solid #F6F6F6;
 width: 95%;
-background: #F6F6F6;
 border-radius: 38px 38px 0% 0%;
 margin-top: -12px;
     }
@@ -180,3 +179,555 @@ margin-top: -12px;
         width: 200px;
     }
 }
+
+
+
+/*--------tablette----------------*/
+
+@media screen and (min-width:701px) and (max-width:1010px) {
+
+
+
+    *{
+
+        max-width: 1050px;
+    }
+body {
+
+display: grid;
+grid-template-rows: 64px 281px  1600px 274px;
+grid-template-areas: "header""img""section""footer";
+width: auto;
+max-width: 100%;
+margin: 0 auto;
+}
+
+
+/*------header-----*/
+header {
+
+grid-area: header;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+header>img {
+
+margin-left: 27%;
+margin-top: 12px;
+width: 200px;
+
+}
+
+.fa-arrow-left {
+
+font-size: 18px;
+margin-left: 39px;
+position: relative;
+left: -31px;
+top: -8px;
+}
+
+/*------image de fond-----*/
+
+
+.img_fond {
+
+grid-area: img;
+}
+
+.img_fond>img {
+
+
+max-width: 100%;
+max-height: 20REM;
+}
+
+/*------section-----*/
+
+section {
+
+
+border: 9px solid #F6F6F6;
+width: 97.8%;
+border-radius: 38px 38px 0% 0%;
+margin-top: -12px;
+}
+
+
+h1 {
+
+font-size: 28px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+margin-left: 14px;
+margin-top: 50px;
+}
+
+.like {
+
+float: right;
+margin-right: 23px;
+font-size: 29px;
+margin-top: -48px;
+color: black;
+}
+
+/*-----------menu--------------*/
+
+
+.menu {
+
+margin-left: 1%;
+
+margin-top: 30px;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+
+}
+
+h2 {
+
+border-bottom: 3px solid #99E2D0;
+width: 63px;
+}
+
+.btn_choise {
+
+width: 92%;
+
+}
+
+a {
+
+font-size: 13px;
+padding-top: 18px;
+}
+
+.btn_choise>span {
+
+float: right;
+margin-top: -30px;
+margin-right: 10px;
+}
+
+.block_btn_choise {
+
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+a {
+
+text-decoration: none;
+color: black;
+}
+
+.btn_commande {
+
+
+margin-left: 29%;
+margin-top: 20%;
+width: 246px;
+height: 62px;
+font-size: 23px;
+}
+
+/*----------FOOTER------*/
+
+
+footer {
+
+
+background-color: #353535;
+color: white;
+padding-left: 25px;
+padding-top: 13px;
+width: 100% auto;
+
+
+}
+
+
+.footer>a {
+
+color: white;
+text-decoration: none !important;
+}
+
+.footer>img {
+
+filter: invert(100%);
+width: 200px;
+}
+}
+
+
+/*--------Smartphone Taille XL----------------*/
+
+@media screen and (min-width:481px) and (max-width:700px) {
+
+
+
+    *{
+
+        max-width: 700px;
+    }
+body {
+
+display: grid;
+grid-template-rows: 64px 281px  1600px 274px;
+grid-template-areas: "header""img""section""footer";
+width: auto;
+max-width: 100%;
+margin: 0 auto;
+}
+
+
+/*------header-----*/
+header {
+
+grid-area: header;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+header>img {
+
+margin-left: 17%;
+margin-top: 12px;
+width: 200px;
+
+}
+
+.fa-arrow-left {
+
+font-size: 18px;
+margin-left: 39px;
+position: relative;
+left: -31px;
+top: -8px;
+}
+
+/*------image de fond-----*/
+
+
+.img_fond {
+
+grid-area: img;
+}
+
+.img_fond>img {
+
+
+max-width: 100%;
+max-height: 20REM;
+}
+
+/*------section-----*/
+
+section {
+
+
+border: 9px solid #F6F6F6;
+width: 97.3%;
+border-radius: 38px 38px 0% 0%;
+margin-top: -12px;
+}
+
+
+h1 {
+
+font-size: 23px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+margin-left: 14px;
+margin-top: 50px;
+}
+
+.like {
+
+float: right;
+margin-right: 23px;
+font-size: 29px;
+margin-top: -48px;
+color: black;
+}
+
+/*-----------menu--------------*/
+
+
+.menu {
+
+margin-left: 1%;
+
+margin-top: 30px;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+
+}
+
+h2 {
+
+border-bottom: 3px solid #99E2D0;
+width: 63px;
+}
+
+.btn_choise {
+
+width: 92%;
+
+}
+
+a {
+
+font-size: 13px;
+padding-top: 18px;
+}
+
+.btn_choise>span {
+
+float: right;
+margin-top: -30px;
+margin-right: 10px;
+}
+
+.block_btn_choise {
+
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+a {
+
+text-decoration: none;
+color: black;
+}
+
+.btn_commande {
+
+
+margin-left: 25%;
+margin-top: 20%;
+width: 246px;
+height: 62px;
+font-size: 23px;
+}
+
+/*----------FOOTER------*/
+
+
+footer {
+
+
+background-color: #353535;
+color: white;
+padding-left: 25px;
+padding-top: 13px;
+width: 100% auto;
+
+
+}
+
+
+.footer>a {
+
+color: white;
+text-decoration: none !important;
+}
+
+.footer>img {
+
+filter: invert(100%);
+width: 200px;
+}
+}
+
+
+/*--------tablette----------------*/
+
+@media screen and (min-width:1011px) and (max-width:1180px) {
+
+
+
+    *{
+
+        max-width: 1200px;
+    }
+
+    body {
+
+        display: grid;
+        grid-template-rows: 64px 281px  1600px 274px;
+        grid-template-areas: "header""img""section""footer";
+        width: auto;
+        max-width: 100%;
+        margin: 0 auto;
+        }
+        
+        
+        /*------header-----*/
+        header {
+        
+        grid-area: header;
+        margin-top: 10px;
+        margin-left: 10px;
+        }
+        
+        header>img {
+        
+        margin-left: 30%;
+        margin-top: 12px;
+        width: 200px;
+        
+        }
+        
+        .fa-arrow-left {
+        
+        font-size: 43px;
+        margin-left: 39px;
+        position: relative;
+        left: -31px;
+        top: -8px;
+        }
+        
+        /*------image de fond-----*/
+        
+        
+        .img_fond {
+        
+        grid-area: img;
+        }
+        
+        .img_fond>img {
+        
+        
+        max-width: 100%;
+        max-height: 29REM;
+        }
+        
+        /*------section-----*/
+        
+        section {
+        
+        
+        border: 9px solid #F6F6F6;
+        width: 98.3%;
+        border-radius: 38px 38px 0% 0%;
+        margin-top: 54px;
+        }
+        
+        
+        h1 {
+        
+        font-size: 32px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        margin-left: 14px;
+        margin-top: 50px;
+        }
+        
+        .like {
+        
+        float: right;
+        margin-right: 23px;
+        font-size: 29px;
+        margin-top: -48px;
+        color: black;
+        }
+        
+        /*-----------menu--------------*/
+        
+        
+        .menu {
+        
+        margin-left: 3%;
+        
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        
+        }
+        
+        h2 {
+        
+        border-bottom: 3px solid #99E2D0;
+        width: 63px;
+        }
+        
+        .btn_choise {
+        
+        width: 92%;
+        
+        }
+        
+        a {
+        
+        font-size: 13px;
+        padding-top: 18px;
+        }
+        
+        .btn_choise>span {
+        
+        float: right;
+        margin-top: -30px;
+        margin-right: 10px;
+        }
+        
+        .block_btn_choise {
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+        
+        a {
+        
+        text-decoration: none;
+        color: black;
+        }
+        
+        .btn_commande {
+        
+        
+            margin-left: 32%;
+            margin-top: 7%;
+            width: 266px;
+            height: 62px;
+            font-size: 23px;
+            
+        }
+        
+        /*----------FOOTER------*/
+        
+        
+        footer {
+        
+        
+        background-color: #353535;
+        color: white;
+        padding-left: 25px;
+        padding-top: 13px;
+        width: 100% auto;
+        
+        
+        }
+        
+        
+        .footer>a {
+        
+        color: white;
+        text-decoration: none !important;
+        font-size: 19p;
+        }
+        
+        .footer>img {
+        
+        filter: invert(100%);
+        width: 226px;
+    
+    }
+        }
+        
