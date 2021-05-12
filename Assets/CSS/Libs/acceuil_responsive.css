@@ -101,6 +101,7 @@
     .restaurants{
 
         margin-left: -6%;
+        width: 100%;
     }
 
     .Card_restaurants>a>img {
@@ -116,7 +117,6 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 78%;
         align-items: center;
     }
 
