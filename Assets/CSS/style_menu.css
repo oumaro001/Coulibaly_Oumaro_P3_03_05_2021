@@ -55,8 +55,9 @@ border-radius: 6% 6% 0% 0%;
 h1{
 
     font-size: 70px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Shrikhand,"cursive";
     font-style: italic;
+    font: weight 800px;
     margin-left: 50px;
     margin-top: 50px;
 }
