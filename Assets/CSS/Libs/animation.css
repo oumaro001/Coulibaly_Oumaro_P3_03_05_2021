@@ -105,8 +105,8 @@
     transition: 0.5s;
   }
 .block_btn_choise span:after {
-    content:url(http://www.w3.org/2000/svg);
-      position: absolute;
+  content:"";
+  position: absolute;
   opacity: 0;
   top: 0;
   right: -20px;
