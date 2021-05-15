@@ -1,5 +1,12 @@
 @import url(./Libs/animation.css);
 
+
+*{
+
+    animation: loader;
+    animation-duration: 1500ms;
+}
+
 body {
 
     font-family: 'Roboto', sans-serif;
