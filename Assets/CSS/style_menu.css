@@ -5,6 +5,8 @@
 
     max-width: 1840px;
     font-family: 'Roboto', sans-serif;
+    animation: loader;
+    animation-duration: 1500ms;
 
     
 }
@@ -88,16 +90,27 @@ h2{
 
     border-bottom: 3px solid #99E2D0;
     width: 63px;
+    animation: right_to_left_h2;
+    animation-duration: 1300ms;
+
 }
 
 .btn_choise{
 
-    border: 3px solid  white;
-width: 412px;
+border: 3px solid  white;
+width: 388px;
 border-radius: 20px;
 background: white;
 padding-left: 20px;
 box-shadow: 1px 6px 6px 2px rgba(5, 5, 5, 0.1);
+
+
+}
+
+.menu > .entrees{
+
+    animation: right_to_left;
+    animation-duration: 3000ms;
 
 }
 
@@ -120,6 +133,10 @@ a{
     color: black;
 }
 
+.menu_block{
+
+    display: flex;
+}
 /*----------FOOTER------*/
 
 
