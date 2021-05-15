@@ -71,30 +71,7 @@
     box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .5)
 }
 
-/*--------animation chargement de la page------*/
-/*
-.wrapper{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
 
-}
-
-.rubik-loader{
-  width: 64px;
-  height: 64px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-image: url(http://i.giphy.com/3og0ISeflb7vrNzy2A.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
 
 /*--------animation hover btn menu------*/
 
@@ -127,4 +104,61 @@
 
 
     --background-color: 
+}
+
+
+/*--------animation chargement de la page------*/
+
+@keyframes loader{
+
+  0% {
+
+    opacity: 0;
+  }
+
+ 
+  100% { 
+
+    opacity: 1;
+  }
+
+
+
+}
+
+/*--------animation deplacement des menus au chargemant------*/
+
+@keyframes right_to_left{
+
+  0% {
+
+    margin-left: 1300px;
+  }
+
+ 
+  100% { 
+
+    margin-left: 0px;
+  }
+
+
+
+}
+
+
+@keyframes right_to_left_h2{
+
+  0% {
+
+    margin-left: 1300px;
+  }
+
+ 
+  100% { 
+
+    margin-left: 0px;
+  }
+
+
+
 }
