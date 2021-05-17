@@ -68,7 +68,8 @@
 .btn_commande:active {
 
     background-color: rgb(252, 161, 240);
-    box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .5)
+    box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .5);
+    transform: scale(1);
 }
 
 
@@ -90,8 +91,10 @@
   transition: 0.5s;
 }
 
-.block_btn_choise:hover span {
-  padding-right: 25px;
+.btn_choise:hover span {
+  margin-left: -125px;
+
+
 }
 
 .block_btn_choise:hover span:after {
@@ -132,13 +135,15 @@
 
   0% {
 
-    margin-left: 1300px;
+    transform: translateX(-0px);
+        opacity: 1;
   }
 
  
   100% { 
 
-    margin-left: 0px;
+    transform: translateX(100px);
+    opacity: 0;
   }
 
 
@@ -150,15 +155,18 @@
 
   0% {
 
-    margin-left: 1300px;
+    transform: translateX(-200px);
   }
 
  
   100% { 
 
-    margin-left: 0px;
+    transform: translateX(200px);
   }
 
 
 
 }
+
+
+
