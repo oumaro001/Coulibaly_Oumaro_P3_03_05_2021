@@ -1,88 +1,71 @@
 /*----like-------*/
 .fa-heart {
-    transition: color 1s;
-
+  transition: color 1s;
 }
 
-
-
-
-.like>span {
-
-    position: relative;
-    color: white;
-    top: 0em;
-    left: 38px;
-    font-size: 34px;
-    mix-blend-mode: lighten;
+.like > span {
+  position: relative;
+  color: white;
+  top: 0em;
+  left: 38px;
+  font-size: 34px;
+  mix-blend-mode: lighten;
 }
-
-
-
 
 .fa-heart:hover {
-
-    color: #E77EDE;
+  color: #e77ede;
 }
-
 
 /*-----------btn commande-----*/
 
 .btn_commande {
-
-
-    border: 13px solid #9356DC;
-    background: #9356DC;
-    color: white;
-    font-size: 15px;
-    width: 400px;
-    height: 100px;
-    margin-left: 34%;
-    margin-top: 70px;
-    border-radius: 21px;
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 2rem;
-    cursor: pointer;
-    text-align: center;
-    color: #FFF;
-    border-radius: 38px;
-    background-color: #E77EDE;
-    box-shadow: 1px 6px 6px 2px rgba(5, 5, 5, 0.1);
-    background-image: linear-gradient(to top left,
-            rgba(0, 0, 0, .2),
-            rgba(0, 0, 0, .2) 30%,
-            rgba(0, 0, 0, 0));
-
+  border: 13px solid #9356dc;
+  background: #9356dc;
+  color: white;
+  font-size: 15px;
+  width: 400px;
+  height: 100px;
+  margin-left: 34%;
+  margin-top: 70px;
+  border-radius: 21px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  border-radius: 38px;
+  background-color: #e77ede;
+  box-shadow: 1px 6px 6px 2px rgba(5, 5, 5, 0.1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
 }
-
 
 .btn_commande:hover {
-
-    background-color: rgb(252, 161, 240);
-    box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .5)
+  background-color: rgb(252, 161, 240);
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
-
 
 .btn_commande:active {
-
-    background-color: rgb(252, 161, 240);
-    box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .5)
+  background-color: rgb(252, 161, 240);
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
-
-
 
 /*--------animation hover btn menu------*/
 
-.block_btn_choise span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-.block_btn_choise span:after {
-  content:"";
+.btn_choise span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn_choise span:after {
+  content: "";
   position: absolute;
   opacity: 0;
   top: 0;
@@ -90,75 +73,116 @@
   transition: 0.5s;
 }
 
-.block_btn_choise:hover span {
+.btn_choise:hover span {
   padding-right: 25px;
 }
 
-.block_btn_choise:hover span:after {
+.btn_choise:hover span:after {
   opacity: 1;
   right: 0;
 }
 
-
-.btn_valid{
-
-
-    --background-color: 
+.btn_valid {
+  --background-color: ;
 }
-
 
 /*--------animation chargement de la page------*/
 
-@keyframes loader{
-
+@keyframes loader {
   0% {
-
     opacity: 0;
   }
 
- 
-  100% { 
-
+  100% {
     opacity: 1;
   }
-
-
-
+}
+/* le spin */
+.loader_page {
+  background-color: transparent;
+  color: black;
+  height: 500px;
+  line-height: 500px;
+  text-align: center;
+  font-size: 30px;
+  animation: loader_opacity 3000ms forwards;
+  grid-area: header;
+ 
 }
 
+
+.loader {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.loader-quart {
+  border-radius: 50%;
+  border: 6px solid rgb(252, 161, 240);
+}
+
+.loader-quart::after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: 50%;
+  border: 6px solid transparent;
+  border-top-color: #9356dc;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes loader_opacity {
+  
+
+      0%{
+
+        opacity: 1;
+      }
+
+      50%{
+
+        opacity: 0.5;
+      }
+      100%{
+
+        opacity: 0;
+      }
+}
 /*--------animation deplacement des menus au chargemant------*/
 
-@keyframes right_to_left{
-
+@keyframes right_to_left {
   0% {
-
     margin-left: 1300px;
   }
 
- 
-  100% { 
-
+  100% {
     margin-left: 0px;
   }
-
-
-
 }
 
-
-@keyframes right_to_left_h2{
-
+@keyframes right_to_left_h2 {
   0% {
-
     margin-left: 1300px;
   }
 
- 
-  100% { 
-
+  100% {
     margin-left: 0px;
   }
-
-
-
 }
