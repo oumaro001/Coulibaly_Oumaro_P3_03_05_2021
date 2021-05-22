@@ -168,5 +168,26 @@
 
 }
 
+/*-------animation img  food----------*/
+@keyframes animation_food {
+
+  0%{
+      margin-left: -546px;
+      opacity: 0;
+
+  }
+
+  50%{
+
+      opacity: 1;
+  }
+
+  100%{
+
+      margin-left: 460px;
+      opacity: 0;
+  }
+  
+}
 
 

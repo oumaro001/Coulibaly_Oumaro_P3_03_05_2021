@@ -1,3 +1,6 @@
+
+
+
 @import url(./Libs/animation.css);
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand:wght@300;400;500;600;700;800;900&display=swap");
 
@@ -13,7 +16,7 @@
     
 }
 
-main{
+body{
 
    display: flex;
    align-items: center;
@@ -41,17 +44,18 @@ header >img{
 
 .img_fond > img{
 
-    width: 66.5em;
+    width: 76.5em;
 height: 32em;
 margin-top: 0px;
 margin-bottom: -4px;
 }
 
 
-.img_fond{
+/*.img_fond{
 
     border: 12px solid palevioletred;
 }
+*/
 
 
 .img_food{
@@ -66,26 +70,6 @@ animation: animation_food  2s infinite;
 
 }
 
-@keyframes animation_food {
-
-    0%{
-        margin-left: -546px;
-        opacity: 0;
-
-    }
-
-    50%{
-
-        opacity: 1;
-    }
-
-    100%{
-
-        margin-left: 460px;
-        opacity: 0;
-    }
-    
-}
 
 
 
@@ -225,7 +209,7 @@ footer {
     padding-left: 25px;
     padding-top: 13px;
     margin-top: 40px;
-
+    width: 99%;
 
 }
 
@@ -240,6 +224,3 @@ footer {
 
     filter: invert(100%)
 }
-
-
-
