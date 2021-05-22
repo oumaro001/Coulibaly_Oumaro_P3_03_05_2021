@@ -3,10 +3,9 @@
 
 *{
 
-    max-width: 1840px;
+    max-width: 2000px;
     font-family: 'Roboto', sans-serif;
-    animation: loader;
-    animation-duration: 1500ms;
+    animation: loader 3000ms forwards;
 
     
 }
@@ -14,7 +13,7 @@
 body{
 
     display: grid;
-    grid-template-rows: 80px 620px 1100px 274px;
+    grid-template-rows: 80px 498px 2000px 274px;
     grid-template-areas:"header" "img" "section" "footer"; 
 }
 
@@ -22,26 +21,30 @@ body{
 header{
 
     grid-area: header;
+    text-align: center;
 }
 header >img{
 
     width: 400px;
-    margin-left: 30%;
 }
 
 .fa-arrow-left{
 
-    font-size: 70px;
-    margin-left: 35px;
+    font-size: 50px;
+position: absolute;
+left: 1%;
 }
 
 /*------image de fond-----*/
 
 .img_fond > img{
 
-    width: 86.5em;
-    height: 42em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
 }
+
 
 /*------section-----*/
 
@@ -49,14 +52,17 @@ section{
 
 
     border: 9px solid #F6F6F6;
-background: #F6F6F6;
-border-radius: 6% 6% 0% 0%;
+    background: #F6F6F6;
+    border-radius: 6% 6% 0% 0%;
+    width: 95%;
+    margin-left: 2%;
+    margin-top: -70px;
 }
 
 
 h1{
 
-    font-size: 70px;
+    font-size: 57px;
     font-family: Shrikhand,"cursive";
     font-style: italic;
     font: weight 800px;
@@ -90,29 +96,26 @@ h2{
 
     border-bottom: 3px solid #99E2D0;
     width: 63px;
-    animation: right_to_left_h2;
-    animation-duration: 1300ms;
+    animation: right_to_left;
+    animation-duration: 1000ms;
 
 }
 
 .btn_choise{
 
 border: 3px solid  white;
-width: 388px;
 border-radius: 20px;
 background: white;
 padding-left: 20px;
+margin-left: 20px;
+margin-top: 20px;
+animation: right_to_left 1500ms;
 box-shadow: 1px 6px 6px 2px rgba(5, 5, 5, 0.1);
 
 
 }
 
-.menu > .entrees{
 
-    animation: right_to_left;
-    animation-duration: 3000ms;
-
-}
 
 .btn_choise > span{
 
@@ -121,11 +124,7 @@ box-shadow: 1px 6px 6px 2px rgba(5, 5, 5, 0.1);
     margin-right: 10px;
 }
 
-.block_btn_choise{
 
-    display: flex;
-    justify-content: space-between;
-}
 
 a{
 
