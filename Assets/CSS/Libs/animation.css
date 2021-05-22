@@ -101,8 +101,8 @@
 .loader_page {
   background-color: transparent;
   color: black;
-  height: 500px;
-  line-height: 500px;
+  height: 200px;
+  line-height: 400px;
   text-align: center;
   font-size: 30px;
   animation: loader_opacity 3000ms forwards;
