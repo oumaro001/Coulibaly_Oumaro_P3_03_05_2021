@@ -1,4 +1,4 @@
-@media screen and (min-width:320px) and (max-width:700px) {
+@media screen and (min-width:360px) and (max-width:700px) {
 
     body {
 
@@ -71,7 +71,7 @@
     .fonctionnement h1 {
 
         font-size: x-large;
-        margin-left: -17px;
+        margin-left: -69%;
     }
 
     .btn_menu {
@@ -105,8 +105,8 @@
     }
 
     .Card_restaurants>a>img {
-        height: 246px;
-        width: 332px;
+        height: 10em;
+        width: 22em;
         object-fit: cover;
 
 
@@ -117,25 +117,37 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
     }
 
     .Card_restaurants {
-        margin-left: 0px;
+        margin-left: 5%;
+        width: 15em;
+        height: 12.5em;
 
     }
 
+    .Card_restaurants__anciens {
+        margin-left: 5%;
+        width: 22em;
+        height: 12.5em;
+
+    }
+
+    .Card_restaurants__anciens > a > img {
+        height: 10em;
+        width: 100%;
+
+    }
     .Card_restaurants span>p {
-        top: -249px;
-        left: 241px;
+        transform: translate(347%,-496%);
     }
 
     .fa-heart {
 
         position: relative;
         top: -2em;
-        left: 260px;
-        font-size: 34px;
+        left: 298px;
+        font-size: 30px;
     }
 
     /*---footer---*/
@@ -227,7 +239,8 @@ padding-left: 2px;
     .fonctionnement h1 {
 
         font-size: x-large;
-        margin-left: -17px;
+        margin-left: -126%;
+    
     }
 
     .btn_menu {
@@ -262,6 +275,11 @@ padding-left: 2px;
 
     }
 
+    .Card_restaurants__anciens{
+
+        width: 39em;
+        margin-left: 0%;
+    }
     .cards_section {
 
         display: flex;
