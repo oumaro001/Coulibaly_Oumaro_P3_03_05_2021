@@ -68,8 +68,7 @@
 .btn_commande:active {
 
     background-color: rgb(252, 161, 240);
-    box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .5);
-    transform: scale(1);
+    box-shadow: .25rem .25rem 10px rgba(0, 0, 0, .5)
 }
 
 
@@ -91,10 +90,8 @@
   transition: 0.5s;
 }
 
-.btn_choise:hover span {
-  margin-left: -125px;
-
-
+.block_btn_choise:hover span {
+  padding-right: 25px;
 }
 
 .block_btn_choise:hover span:after {
@@ -135,15 +132,13 @@
 
   0% {
 
-    transform: translateX(-0px);
-        opacity: 1;
+    margin-left: 1300px;
   }
 
  
   100% { 
 
-    transform: translateX(100px);
-    opacity: 0;
+    margin-left: 0px;
   }
 
 
@@ -155,18 +150,19 @@
 
   0% {
 
-    transform: translateX(-200px);
+    margin-left: 1300px;
   }
 
  
   100% { 
 
-    transform: translateX(200px);
+    margin-left: 0px;
   }
 
 
 
 }
+<<<<<<< HEAD
 
 /*-------animation img  food----------*/
 @keyframes animation_food {
@@ -191,3 +187,5 @@
 }
 
 
+=======
+>>>>>>> parent of e20cc2d... essai version
