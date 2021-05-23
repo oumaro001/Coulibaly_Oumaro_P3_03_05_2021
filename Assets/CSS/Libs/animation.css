@@ -167,22 +167,43 @@
 }
 /*--------animation deplacement des menus au chargemant------*/
 
-@keyframes right_to_left {
+@keyframes top_of_bottom {
   0% {
-    margin-left: 1300px;
+    opacity: 0;
   }
 
+    50%{
+
+      opacity: 0.5;
+    }
   100% {
-    margin-left: 0px;
+      opacity: 1;
   }
 }
 
-@keyframes right_to_left_h2 {
-  0% {
-    margin-left: 1300px;
-  }
+.block_btn_choise > a:nth-child(1){
 
-  100% {
-    margin-left: 0px;
-  }
+  animation: top_of_bottom 1000ms ease-in-out both;
+  animation-delay: 2s;
+
+}
+
+.block_btn_choise > a:nth-child(2){
+
+  animation: top_of_bottom 1000ms ease-in-out both;
+  animation-delay: 3s;
+
+}
+
+.block_btn_choise > a:nth-child(3){
+
+  animation: top_of_bottom 1000ms ease-in-out both;
+  animation-delay: 4s;
+
+}
+.block_btn_choise > a:nth-child(4){
+
+  animation: top_of_bottom 1000ms ease-in-out both;
+  animation-delay: 5s;
+
 }
