@@ -3,10 +3,13 @@
 
 *{
 
-    animation: loader;
-    animation-duration: 3000ms;
-}
+    max-width: 2000px;
+    font-family: 'Roboto', sans-serif;
 
+
+
+    
+}
 body {
 
     font-family: 'Roboto', sans-serif;
@@ -35,6 +38,9 @@ a {
 header {
 
     grid-area: header;
+    animation: loader;
+    animation-duration: 3000ms;
+
 }
 
 .logos>img {
@@ -47,6 +53,8 @@ header {
 .localisation {
 
     grid-area: localisation;
+    animation: loader;
+    animation-duration: 3000ms;
     grid-column: 1 / 2;
     margin-top: 20px;
     background: rgb(231, 231, 231);
@@ -79,6 +87,8 @@ header {
 
 aside {
     background: rgb(236, 236, 236);
+    animation: loader;
+    animation-duration: 3000ms;
 
 
 
@@ -138,6 +148,8 @@ article {
 
     grid-area: fonctionnement;
     grid-column: 1 / 2;
+    animation: loader;
+    animation-duration: 3000ms;
 
 }
 
@@ -146,6 +158,8 @@ article {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: loader;
+    animation-duration: 3000ms;
 }
 
 .btn_function {
@@ -220,6 +234,8 @@ section {
 
     grid-area: restaurants;
     grid-column: 1 / 2;
+    animation: loader;
+    animation-duration: 3000ms;
 
     justify-content: space-evenly;
 
@@ -340,6 +356,8 @@ footer {
     color: white;
     padding-left: 25px;
     padding-top: 13px;
+    animation: loader;
+    animation-duration: 3000ms;
 
 
 }
