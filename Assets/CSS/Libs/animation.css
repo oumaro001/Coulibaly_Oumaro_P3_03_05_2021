@@ -89,12 +89,16 @@
 /*--------animation chargement de la page------*/
 
 @keyframes loader {
-  0% {
-    opacity: 0;
-  }
 
-  100% {
-    opacity: 1;
+  0%{
+
+          filter: blur(10px);
+
+  }
+  
+  100%{
+
+      filter: blur(0px);
   }
 }
 /* le spin */
@@ -105,10 +109,15 @@
   line-height: 400px;
   text-align: center;
   font-size: 30px;
-  animation: loader_opacity 3000ms forwards;
-  grid-area: header;
+  position: fixed;
+    left: 50%;
+    right: 50%;
+    transform: translate(100%,100%);
+    animation: loader_opacity 3S forwards; 
+    z-index: 1;   
+    }
  
-}
+
 
 
 .loader {
@@ -140,6 +149,7 @@
 @keyframes spin {
   0% {
     transform: rotate(0deg);
+   
   }
 
   100% {
