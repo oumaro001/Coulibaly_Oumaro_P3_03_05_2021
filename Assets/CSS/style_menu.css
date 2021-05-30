@@ -1,11 +1,11 @@
 @import url(./Libs/animation.css);
 
-
 *{
 
     max-width: 2000px;
     font-family: 'Roboto', sans-serif;
-    animation: loader 3000ms forwards;
+
+
 
     
 }
@@ -15,6 +15,8 @@ body{
     display: grid;
     grid-template-rows: 80px 498px 2000px 274px;
     grid-template-areas:"header" "img" "section" "footer"; 
+
+
 }
 
 /*------header-----*/
@@ -22,6 +24,8 @@ header{
 
     grid-area: header;
     text-align: center;
+    animation: loader;
+    animation-duration: 3000ms;
 }
 header >img{
 
@@ -45,7 +49,11 @@ left: 1%;
     
 }
 
+.img_fond{
 
+    animation: loader;
+    animation-duration: 3000ms;
+}
 /*------section-----*/
 
 section{
@@ -57,6 +65,8 @@ section{
     width: 95%;
     margin-left: 2%;
     margin-top: -70px;
+    animation: loader;
+    animation-duration: 3000ms;
 }
 
 
@@ -135,9 +145,9 @@ a{
     display: flex;
 }
 
-.btn_choise > h3 p{
+.btn_choise > p{
 
-    opacity: .75;
+    opacity: 0.75;
     text-overflow: ellipsis;
     overflow: hidden;
 }
@@ -151,6 +161,8 @@ footer {
     color: white;
     padding-left: 25px;
     padding-top: 13px;
+    animation: loader;
+    animation-duration: 3000ms;
 
 
 }
