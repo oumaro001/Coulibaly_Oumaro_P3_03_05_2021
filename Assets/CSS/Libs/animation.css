@@ -1,19 +1,37 @@
 /*----like-------*/
-.fa-heart {
-  transition: color 1s;
+
+.icon_heart{
+
+  font-size: 30px;
 }
 
-.like > span {
-  position: relative;
+
+.far{
+
+  color: black;
+}
+
+.fas{
+
+  margin-left: -33px;
   color: white;
-  top: 0em;
-  left: 38px;
-  font-size: 34px;
-  mix-blend-mode: lighten;
+  font-size: 22px;
+  vertical-align: text-top;
+  margin-top: -10px;
 }
 
-.fa-heart:hover {
-  color: #e77ede;
+.icon_heart:hover .far{
+
+  color: white;
+}
+
+
+.icon_heart:hover .fas{
+
+  color: palevioletred;
+  transform: scale(2);
+  transition: 2s;
+
 }
 
 /*-----------btn commande-----*/
