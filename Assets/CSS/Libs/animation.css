@@ -1,10 +1,5 @@
 /*----like-------*/
 
-.icon_heart{
-
-  font-size: 30px;
-}
-
 
 .far{
 
@@ -33,6 +28,36 @@
   transition: 2s;
 
 }
+
+/*like du menu*/
+
+.like_menu > .far{
+
+  color: black;
+}
+
+.like_menu > .fas{
+
+  margin-left: -54%;
+  color: white;
+  font-size: 22px;
+  margin-top: 13%;
+}
+
+.like_menu:hover .far{
+
+  color: white;
+}
+
+
+.like_menu:hover .fas{
+
+  color: palevioletred;
+  transform: scale(2);
+  transition: 2s;
+
+}
+
 
 /*-----------btn commande-----*/
 
@@ -76,33 +101,101 @@
 
 /*--------animation hover btn menu------*/
 
-.btn_choise span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-.btn_choise span:after {
-  content: "";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+.btn_choise:hover .menu_valid {
+
+  animation: slide-left 500ms forwards;
 }
 
 .btn_choise:hover span {
-  padding-right: 25px;
+
+animation: left_price 1s forwards;
 }
 
-.btn_choise:hover span:after {
+.btn_choise:hover i{
+
+animation: rotate-center 1s forwards ease-in-out;
+}
+
+
+.btn_choise:valid .menu_valid {
+
+  animation: slide-left 500ms forwards;
+}
+
+.btn_choise:valid span {
+
+  animation: left_price 1s forwards;
+}
+
+@-webkit-keyframes slide-left {
+
+0% {
+      transform: translate(67%,-78%);
+  opacity: 0;
+
+}
+100% {
+  transform: translate(6%,-78%);
   opacity: 1;
-  right: 0;
+  width: 78px;
+
+}
 }
 
-.btn_valid {
-  --background-color: ;
+@keyframes slide-left {
+
+  0% {
+        transform: translate(67%,-78%);
+    opacity: 0;
+  
+  }
+  100% {
+    transform: translate(6%,-78%);
+    opacity: 1;
+    width: 78px;
+  
+  }
+  }
+
+
+@keyframes left_price {
+
+    0%{
+      left: 96%;
+      top: -2em;
+
+    }
+
+    100%{
+      left: 70%;
+      top: -2em;
+
+    }
 }
+
+
+
+@-webkit-keyframes rotate-center {
+0% {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+100% {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+}
+@keyframes rotate-center {
+0% {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+100% {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+}
+
 
 /*--------animation chargement de la page------*/
 
