@@ -13,7 +13,7 @@
 body{
 
     display: grid;
-    grid-template-rows: 80px 498px 2000px 274px;
+    grid-template-rows: 80px 498px 2205px 274px;
     grid-template-areas:"header" "img" "section" "footer"; 
 
 
@@ -32,11 +32,12 @@ header >img{
     width: 400px;
 }
 
-.fa-arrow-left{
-
+header > a > .fa-arrow-left{
     font-size: 50px;
-position: absolute;
-left: 1%;
+    position: absolute;
+    left: 4%;
+    color: black;
+    top: 5%;
 }
 
 /*------image de fond-----*/
@@ -80,13 +81,13 @@ h1{
     margin-top: 50px;
 }
 
-.like{
+.like_menu{
 
+    font-size: 34px;
     float: right;
-    margin-right: 90px;
-    font-size: 50px;
-    margin-top: -110px;
-    color: black;
+    position: relative;
+    top: -3em;
+    right: 2em;
 }
 
 /*-----------menu--------------*/
@@ -120,38 +121,63 @@ padding-left: 20px;
 margin-left: 20px;
 margin-top: 20px;
 box-shadow: 1px 6px 6px 2px rgba(5, 5, 5, 0.1);
-
+/*text-overflow: ellipsis;
+ overflow: hidden;
+ white-space: nowrap;
+*/
 }
 
 
+.btn_choise a{
 
-.btn_choise > span{
-
-    float: right;
-    margin-top: -30px;
-    margin-right: 10px;
-}
-
-
-
-a{
-
-    text-decoration: none;
+    text-decoration: none !important;
+   
     color: black;
-}
+  
+  
+  }
 
-.menu_block{
-
-    display: flex;
-}
-
-.btn_choise > p{
+  .btn_choise > p{
 
     opacity: 0.75;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+   
 }
+
+.btn_choise > a > span{
+
+    position: relative;
+    left: 96%;
+    top: -2em;
+  }
+  .menu_valid{
+
+    float: right;
+    transform: translate(67%,-78%);
+    background-color: #99E2D0;
+    border: 1px solid #99E2D0;
+    width: 52px;
+    height: 123px;
+    border-radius: 0px 16px 16% 0px;
+    opacity: 0;
+  
+  }
+
+  .menu_valid > i{
+
+    display: flex;
+justify-content: center;
+border: 1px solid white;
+color: #99E2D0;
+border-radius: 12px;
+width: 23px;
+height: 24px;
+margin-left: 30%;
+margin-top: 82%;
+background: white;
+font-size: 22px;
+  }
+  
+
 /*----------FOOTER------*/
 
 
@@ -160,7 +186,7 @@ footer {
 
     background-color: #353535;
     color: white;
-    padding-left: 25px;
+    padding-left: 45px;
     padding-top: 13px;
     animation: loader;
     animation-duration: 3000ms;
