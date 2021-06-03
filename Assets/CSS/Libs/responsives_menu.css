@@ -7,7 +7,7 @@
   }
   body {
     display: grid;
-    grid-template-rows: 64px 281px 1711px 274px;
+    grid-template-rows: 64px 281px 1900px 274px;
     grid-template-areas: "header" "img" "section" "footer";
     width: auto;
     max-width: 100%;
@@ -27,11 +27,13 @@
     width: 200px;
   }
 
-  .fa-arrow-left {
-    font-size: 22px;
+  header > a > .fa-arrow-left{
+    font-size: 34px;
     position: absolute;
-    left: 1%;
-    top: 3%;
+    left: 12%;
+    color: black;
+    top: 4%;
+
   }
 
   /*------image de fond-----*/
@@ -69,14 +71,13 @@
     font-weight: bold;
   }
 
-  .like {
+  .like_menu {
+    font-size: 34px;
     float: right;
-    margin-right: 23px;
-    font-size: 29px;
-    margin-top: -48px;
-    color: black;
-  }
-
+    position: relative;
+    top: -1.6em;
+    right: 0em;
+}
   /*-----------menu--------------*/
 
   .menu {
@@ -94,7 +95,7 @@
   }
 
   .btn_choise {
-    width: 90%;
+    width: 100%;
   }
 
   a {
@@ -102,23 +103,33 @@
     padding-top: 18px;
   }
 
-  .btn_choise > span {
-    float: right;
-    margin-top: -30px;
-    margin-right: 10px;
+  .btn_choise > a > span{
+
+    position: relative;
+    left: 86%;
+    top: -2em;
   }
+
 
   .block_btn_choise {
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: -30px;
+    width: 100%;
+
   }
 
-  a {
-    text-decoration: none;
-    color: black;
+  .menu_valid{
+  float: right;
+transform: translate(67%,-78%);
+width: 39px;
+height: 104px;
+
   }
 
+.menu_valid > i{
+
+  margin-top: 64%;
+}
   .btn_commande {
     margin-left: 15%;
     margin-top: 20%;
