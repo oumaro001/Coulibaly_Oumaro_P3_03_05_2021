@@ -193,14 +193,18 @@ article {
 .îcone_function>.fas {
 
     position: relative;
-    top: 15px;
+    top: 31%;
     width: 57px;
-    font-size: 21px;
-    color: rgb(117, 116, 116);
-
+font-size: 21px;
+color: rgb(117, 116, 116);
+left: 23px;
 
 }
+.îcone_function:hover >i{
 
+    color: #9356DC;
+}
+ 
 .btn_function p {
 
     font-weight: bold;
@@ -329,14 +333,26 @@ section {
     margin-top: -2%;
 }
 
+.icon_heart{
 
-
-.fa-heart {
-
-    position: relative;
-    top: -2em;
-    left: 430px;
+    margin-top: -5em;
+margin-left: 26em;
 }
+.icon_heart > .far{
+
+    color: black;
+    font-size: 42px;    
+  }
+  
+  .icon_heart .fas{
+  
+    margin-left: -33px;
+    color: white;
+    font-size: 22px;
+    vertical-align: text-top;
+    margin-top: -10px;
+  }
+  
 
 .text_card>p {
 
