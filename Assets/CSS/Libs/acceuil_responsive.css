@@ -156,6 +156,13 @@
         margin-top: 0em;
         margin-left: 0em;
     }
+    .icon_heart .fas {
+        margin-left: -36px;
+        color: white;
+        font-size: 22px;
+        vertical-align: text-top;
+        margin-top: -51px;
+    }
 
     /*---footer---*/
 
@@ -326,6 +333,13 @@ padding-left: 2px;
         margin-left: 0em;
     }
 
+    .icon_heart .fas {
+        margin-left: -36px;
+        color: white;
+        font-size: 22px;
+        vertical-align: text-top;
+        margin-top: -51px;
+    }
     /*---footer---*/
 
     footer {
