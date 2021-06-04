@@ -1,12 +1,12 @@
 /*----like-------*/
 
 
-.far{
+.icon_heart>.far{
 
   color: black;
 }
 
-.fas{
+.icon_heart >.fas{
 
   margin-left: -33px;
   color: white;
@@ -108,12 +108,12 @@
 
 .btn_choise:hover span {
 
-animation: left_price 1s forwards;
+animation: left_price 700ms forwards;
 }
 
 .btn_choise:hover i{
 
-animation: rotate-center 1s forwards ease-in-out;
+animation: rotate-center  700ms  forwards ease-in-out;
 }
 
 
@@ -167,7 +167,7 @@ animation: rotate-center 1s forwards ease-in-out;
     }
 
     100%{
-      left: 70%;
+      left: 68%;
       top: -2em;
 
     }
