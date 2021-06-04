@@ -152,6 +152,11 @@
         font-size: 30px;
     }
 
+    .icon_heart {
+        margin-top: 0em;
+        margin-left: 0em;
+    }
+
     /*---footer---*/
 
     footer {
@@ -314,6 +319,11 @@ padding-left: 2px;
         top: -2em;
         left: 560px;
         font-size: 34px;
+    }
+
+    .icon_heart {
+        margin-top: 0em;
+        margin-left: 0em;
     }
 
     /*---footer---*/
