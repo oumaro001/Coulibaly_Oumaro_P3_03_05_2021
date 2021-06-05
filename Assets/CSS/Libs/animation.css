@@ -130,12 +130,12 @@ animation: rotate-center  700ms  forwards ease-in-out;
 @-webkit-keyframes slide-left {
 
 0% {
-      transform: translate(67%,-78%);
+      transform: translate(20%,-76%);
   opacity: 0;
 
 }
 100% {
-  transform: translate(6%,-78%);
+  transform: translate(0%,-76%);
   opacity: 1;
   width: 78px;
 

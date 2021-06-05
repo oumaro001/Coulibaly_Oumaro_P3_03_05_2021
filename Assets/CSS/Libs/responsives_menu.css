@@ -110,7 +110,10 @@ top: 2%;
     top: -2em;
   }
 
+.btn_choise{
 
+  margin-left: 0px;
+}
   .block_btn_choise {
     flex-direction: column;
     flex-wrap: wrap;
@@ -119,10 +122,11 @@ top: 2%;
   }
 
   .menu_valid{
-  float: right;
-transform: translate(67%,-78%);
-width: 39px;
-height: 104px;
+    
+      float: right;
+      transform: translate(20%,-76%);
+      width: 10px;
+      height: 104px;
 
   }
 
