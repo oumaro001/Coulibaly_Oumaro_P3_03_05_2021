@@ -5,9 +5,6 @@
 
     max-width: 2000px;
     font-family: 'Roboto', sans-serif;
-
-
-
     
 }
 body {
@@ -161,7 +158,9 @@ article {
     animation: loader;
     animation-duration: 3000ms;
 }
-
+.fonctionnement h1{
+    font-size: 2rem;
+}
 .btn_function {
 
     display: flex;
@@ -222,6 +221,7 @@ left: 23px;
 .restaurants>h1 {
 
     margin-left: 45%;
+    font-size: 2rem;
 }
 
 .restaurants a {
@@ -245,7 +245,18 @@ section {
 
 }
 
+.cards_section {
 
+    width: 100%;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-flow: row;
+
+    
+
+}
 
 .Card_restaurants {
 
@@ -267,9 +278,26 @@ section {
     border-top-right-radius: 6%;
     width: 31em;
     height: 21.5em;
+    
 
 }
 
+
+.block_card_1{
+
+    grid-area: 1;
+    grid-column: 1/2;
+    display: flex;
+
+}
+
+.block_card_2{
+
+    grid-area: 2;
+    grid-column: 1/2;
+    display: flex;
+
+}
 .Card_restaurants__anciens{
 
     border: 0px solid white;
@@ -290,6 +318,7 @@ section {
     border-top-right-radius: 6%;
     width: 31em;
     height: 21.5em;
+
 }
 
 
@@ -321,10 +350,7 @@ section {
 
 }
 
-.cards_section {
 
-    margin-left: 35px;
-}
 
 .text_card {
 

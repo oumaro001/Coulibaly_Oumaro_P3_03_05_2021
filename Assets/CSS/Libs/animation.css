@@ -99,102 +99,6 @@
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
 
-/*--------animation hover btn menu------*/
-
-.btn_choise:hover .menu_valid {
-
-  animation: slide-left 500ms forwards;
-}
-
-.btn_choise:hover span {
-
-animation: left_price 700ms forwards;
-}
-
-.btn_choise:hover i{
-
-animation: rotate-center  700ms  forwards ease-in-out;
-}
-
-
-.btn_choise:valid .menu_valid {
-
-  animation: slide-left 500ms forwards;
-}
-
-.btn_choise:valid span {
-
-  animation: left_price 1s forwards;
-}
-
-@-webkit-keyframes slide-left {
-
-0% {
-      transform: translate(20%,-76%);
-  opacity: 0;
-
-}
-100% {
-  transform: translate(0%,-76%);
-  opacity: 1;
-  width: 78px;
-
-}
-}
-
-@keyframes slide-left {
-
-  0% {
-        transform: translate(67%,-78%);
-    opacity: 0;
-  
-  }
-  100% {
-    transform: translate(6%,-78%);
-    opacity: 1;
-    width: 78px;
-  
-  }
-  }
-
-
-@keyframes left_price {
-
-    0%{
-      left: 96%;
-      top: -2em;
-
-    }
-
-    100%{
-      left: 68%;
-      top: -2em;
-
-    }
-}
-
-
-
-@-webkit-keyframes rotate-center {
-0% {
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-}
-100% {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-}
-@keyframes rotate-center {
-0% {
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-}
-100% {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-}
 
 
 /*--------animation chargement de la page------*/
@@ -302,27 +206,27 @@ animation: rotate-center  700ms  forwards ease-in-out;
   }
 }
 
-.block_btn_choise > a:nth-child(1){
+.menuItem > a:nth-child(1){
 
   animation: top_of_bottom 1000ms ease-in-out both;
   animation-delay: 2s;
 
 }
 
-.block_btn_choise > a:nth-child(2){
+.menuItem > a:nth-child(2){
 
   animation: top_of_bottom 1000ms ease-in-out both;
   animation-delay: 3s;
 
 }
 
-.block_btn_choise > a:nth-child(3){
+.menuItem > a:nth-child(3){
 
   animation: top_of_bottom 1000ms ease-in-out both;
   animation-delay: 4s;
 
 }
-.block_btn_choise > a:nth-child(4){
+.menuItem > a:nth-child(4){
 
   animation: top_of_bottom 1000ms ease-in-out both;
   animation-delay: 5s;
