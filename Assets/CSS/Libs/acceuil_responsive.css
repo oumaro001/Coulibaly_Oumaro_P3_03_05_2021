@@ -114,15 +114,14 @@
 
     .block_card_1{
 
-        grid-area: 1;
+        
         display: block;
           
     }
     
     .block_card_2{
     
-        grid-area: 2;
-        grid-column: 1/2;
+       
         display: block;
        
     
@@ -311,16 +310,24 @@ padding-left: 2px;
 
     }
 
+    .Card_restaurants__anciens>a>img{
+
+        height: 246px;
+width: 632px;
+object-fit: cover;
+    }
+
     .Card_restaurants__anciens{
 
-        width: 39em;
-        margin-left: 0%;
         margin-top: 14%;
     }
     .Card_restaurants{
 
-       
         margin-top: 14%;
+    }
+
+    .Card_restaurants span > p {
+        transform: translate(521px,-232px);
     }
     .c
     .cards_section {
@@ -332,16 +339,8 @@ padding-left: 2px;
         align-items: center;
     }
 
-    .Card_restaurants {
-        margin-left: 0px;
 
-    }
-
-    .Card_restaurants span>p {
-        top: -249px;
-        left: 534px;
-    }
-
+   
     .fa-heart {
 
         position: relative;
