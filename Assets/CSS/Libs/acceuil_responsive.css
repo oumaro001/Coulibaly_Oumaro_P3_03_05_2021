@@ -161,7 +161,8 @@
 
     }
     .Card_restaurants span>p {
-        transform: translate(347%,-496%);
+        transform: translate(430%,-496%);
+    
     }
 
     .fa-heart {
@@ -173,9 +174,10 @@
     }
 
     .icon_heart {
-        margin-top: 0em;
-        margin-left: 0em;
+        margin-top: 1%;
+        margin-left: 16%;
     }
+
     .icon_heart .fas {
         margin-left: -36px;
         color: white;
