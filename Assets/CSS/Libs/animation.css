@@ -206,27 +206,28 @@
   }
 }
 
-.menuItem > a:nth-child(1){
+.delay-0{
 
   animation: top_of_bottom 1000ms ease-in-out both;
   animation-delay: 2s;
 
 }
 
-.menuItem > a:nth-child(2){
+.delay-1{
 
   animation: top_of_bottom 1000ms ease-in-out both;
   animation-delay: 3s;
 
 }
 
-.menuItem > a:nth-child(3){
+.delay-2{
 
   animation: top_of_bottom 1000ms ease-in-out both;
   animation-delay: 4s;
 
 }
-.menuItem > a:nth-child(4){
+
+.delay-3{
 
   animation: top_of_bottom 1000ms ease-in-out both;
   animation-delay: 5s;

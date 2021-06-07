@@ -324,7 +324,7 @@ section {
 
 .Card_restaurants span >p {
     
-    transform: translate(405px,-269px);
+    transform: translate(414px,-269px);
     color: green;
     background: lightgreen;
     width: 63px;
@@ -361,8 +361,8 @@ section {
 
 .icon_heart{
 
-    margin-top: -5em;
-margin-left: 26em;
+    margin-top: -16%;
+    margin-left: 86%;
 }
 .icon_heart > .far{
 
