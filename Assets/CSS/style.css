@@ -335,6 +335,7 @@ section {
     height: 272px;
     width: 100%;
     border-radius: 12px 12px 0px 0px;
+    object-fit: cover;
 
 }
 
@@ -343,6 +344,7 @@ section {
     height: 272px;
     width: 100%;
     border-radius: 12px 12px 0px 0px;
+    object-fit: cover;
 
 }
 
