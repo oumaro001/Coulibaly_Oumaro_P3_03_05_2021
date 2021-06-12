@@ -102,7 +102,7 @@
     }
 
     .Card_restaurants>a>img {
-        height: 10em;
+        height: 12rem;
         width: 100%;
         object-fit: cover;
 
@@ -148,7 +148,7 @@
     }
 
     .Card_restaurants__anciens > a > img {
-        height: 6em;
+        height: 12rem;
         width: 100%;
         object-fit: cover;
 
@@ -290,16 +290,13 @@ padding-left: 2px;
     }
 
     .restaurants>h1 {
-        margin-left: 22px;
+        margin-left: 19rem;
 
     }
 
-    .restaurants {
-        margin-left: 4rem;
-    }
 
     .Card_restaurants>a>img {
-        height: 246px;
+        height: 12rem;
         width: 632px;
         object-fit: cover;
 
@@ -319,7 +316,7 @@ padding-left: 2px;
     }
     .Card_restaurants__anciens>a>img{
 
-        height: 246px;
+        height: 12rem;
 width: 632px;
 object-fit: cover;
     }
