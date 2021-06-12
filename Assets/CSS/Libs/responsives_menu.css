@@ -149,7 +149,7 @@ h1{
 
     header > img {
      
-      margin-left: none;
+      margin-left:0;
   }
   
     .cards {

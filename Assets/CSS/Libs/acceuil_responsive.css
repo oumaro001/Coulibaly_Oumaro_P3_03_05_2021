@@ -53,17 +53,13 @@
 
     /*----fonctionnement-----*/
 
-    menu {
-
+    .fonctionnement {
+        margin-left: 0%;
         display: flex;
         align-items: center;
         width: auto;
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    .fonctionnement {
-        margin-left: 0%;
 
 
     }
@@ -71,7 +67,7 @@
     .fonctionnement h1 {
 
         font-size: x-large;
-        margin-left: -69%;
+        margin-left: -44%;
     }
 
     .btn_menu {
@@ -102,6 +98,7 @@
 
         margin-left: -6%;
         width: 100%;
+       
     }
 
     .Card_restaurants>a>img {
@@ -115,25 +112,23 @@
     .block_card_1{
 
         
-        display: block;
-          
+        display: flex;
+        flex-flow: column wrap; 
+        
     }
     
     .block_card_2{
     
        
-        display: block;
-       
-    
-    }
-    .cards_section {
-
-        grid-auto-flow: column;
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        flex-flow: column wrap;  
     
     }
+    .btn_nouveau >p{
+    
+        left: 77%;        
+    }
+    
 
     .Card_restaurants {
         margin-left: 5%;
@@ -153,16 +148,13 @@
     }
 
     .Card_restaurants__anciens > a > img {
-        height: 10em;
+        height: 6em;
         width: 100%;
         object-fit: cover;
 
 
     }
-    .Card_restaurants span>p {
-        transform: translate(430%,-496%);
     
-    }
 
     .fa-heart {
 
@@ -174,7 +166,7 @@
 
     .icon_heart {
         margin-top: 1%;
-        margin-left: 16%;
+        margin-left: 5%;
     }
 
     .icon_heart .fas {
@@ -302,6 +294,10 @@ padding-left: 2px;
 
     }
 
+    .restaurants {
+        margin-left: 4rem;
+    }
+
     .Card_restaurants>a>img {
         height: 246px;
         width: 632px;
@@ -310,6 +306,17 @@ padding-left: 2px;
 
     }
 
+    .block_card_1 {
+        display: flex;
+        width: 100%;
+        flex-flow: column wrap;
+    }
+
+    .block_card_2 {
+        display: flex;
+        width: 100%;
+        flex-flow: column wrap;
+    }
     .Card_restaurants__anciens>a>img{
 
         height: 246px;
@@ -320,11 +327,13 @@ object-fit: cover;
     .Card_restaurants__anciens{
 
         margin-top: 14%;
-    }
+        width: 35rem;
+        }
     .Card_restaurants{
 
         margin-top: 14%;
-    }
+        width: 35rem;
+        }
 
     .Card_restaurants span > p {
         transform: translate(521px,-232px);
@@ -350,8 +359,8 @@ object-fit: cover;
     }
 
     .icon_heart {
-        margin-top: 0em;
-        margin-left: 0em;
+        margin-top: 2em;
+        margin-left: -5em;
     }
 
     .icon_heart .fas {

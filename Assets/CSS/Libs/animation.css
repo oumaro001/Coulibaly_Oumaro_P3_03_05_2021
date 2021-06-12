@@ -24,7 +24,7 @@
 .icon_heart:hover .fas{
 
   color: palevioletred;
-  transform: scale(2);
+  transform: scale(1.5);
   transition: 2s;
 
 }

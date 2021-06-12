@@ -102,7 +102,7 @@ aside {
 
 }
 
-.titre_page_acceuil>h1 {
+.titre_page_acceuil>h2 {
 
     text-align: center;
 }
@@ -141,15 +141,6 @@ aside {
 /*----FONCTIONNEMENT-----*/
 
 
-article {
-
-    grid-area: fonctionnement;
-    grid-column: 1 / 2;
-    animation: loader;
-    animation-duration: 3000ms;
-
-}
-
 .fonctionnement {
 
     display: flex;
@@ -157,6 +148,8 @@ article {
     align-items: center;
     animation: loader;
     animation-duration: 3000ms;
+    grid-area: fonctionnement;
+    grid-column: 1 / 2;
 }
 .fonctionnement h1{
     font-size: 2rem;
@@ -249,7 +242,9 @@ section {
 
     width: 100%;
     display: flex;
-    flex-flow: wrap;
+    flex-flow: column wrap;
+    
+   
     
 
     
@@ -285,7 +280,6 @@ section {
 
  
     display: flex;
-    flex-flow: column wrap;
     width: 100%;
 
 }
@@ -294,7 +288,6 @@ section {
 
     
     display: flex;
-    flex-flow: column wrap;
     width: 100%;
 
 }
@@ -322,19 +315,22 @@ section {
 }
 
 
-.Card_restaurants span >p {
+.btn_nouveau >p{
     
-    transform: translate(414px,-269px);
     color: green;
     background: lightgreen;
     width: 63px;
     border: 7px solid lightgreen;
     border-radius: 4px;
-    position: absolute;
+     position: relative;
+    top: -281px;
+    left: 80%;
 }
 
 
-.Card_restaurants>a>img {
+
+
+.Card_restaurants>img {
 
     height: 272px;
     width: 100%;
@@ -342,7 +338,7 @@ section {
 
 }
 
-.Card_restaurants__anciens>a>img {
+.Card_restaurants__anciens>img {
 
     height: 272px;
     width: 100%;
@@ -356,13 +352,21 @@ section {
 
     height: 70px;
     margin-left: 7px;
-    margin-top: -2%;
+    margin-top: -13%;
 }
+
+.Card_restaurants__anciens> .text_card {
+    height: 70px;
+    margin-left: 7px;
+    margin-top: -4%;
+}
+
 
 .icon_heart{
 
     margin-top: -16%;
     margin-left: 86%;
+    cursor: pointer;
 }
 .icon_heart > .far{
 
