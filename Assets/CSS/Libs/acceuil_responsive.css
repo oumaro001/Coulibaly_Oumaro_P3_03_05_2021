@@ -101,8 +101,8 @@
        
     }
 
-    .Card_restaurants>a>img {
-        height: 12rem;
+    .Card_restaurants > img {
+        height: 14rem;
         width: 100%;
         object-fit: cover;
 
@@ -126,13 +126,14 @@
     }
     .btn_nouveau >p{
     
-        left: 77%;        
+        left: 77%; 
+        top: -227px;       
     }
     
 
     .Card_restaurants {
-        margin-left: 5%;
-        width: 100%;
+        margin-left: 5.5%;
+        width: 98%;
         height: 12.5em;
         margin-top: 20%;
 
@@ -140,15 +141,15 @@
     }
 
     .Card_restaurants__anciens {
-        margin-left: 5%;
-    width: 100%;
+        margin-left: 4.5%;
+        width: 98%;
     height: 12.5em;
     margin-top: 20%;
 
     }
 
-    .Card_restaurants__anciens > a > img {
-        height: 12rem;
+    .Card_restaurants__anciens > img {
+        height: 14rem;
         width: 100%;
         object-fit: cover;
 

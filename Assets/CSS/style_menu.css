@@ -7,8 +7,7 @@
 
     max-width: 2000px;
     font-family: 'Roboto', sans-serif;
-    animation: loader;
-    animation-duration: 2500ms;
+    
     
 
     
@@ -102,7 +101,7 @@ h2{
 
     font-size: 50px;
 margin-top: 34px;
-margin-right: 27px;
+margin-right: 3%;
    
 }
 
@@ -124,7 +123,7 @@ margin-top: 19%;
 
 .icon_heart:hover .far{
 
-    color: #f2f2f2;
+    display: none;
 }
 
 
@@ -133,7 +132,7 @@ margin-top: 19%;
     color: palevioletred;
     font-size: 40px;
     transform: scale(1.5);
-    transition: 2s;
+    transition: 1.5s;
 
 }
 .container_menu {
