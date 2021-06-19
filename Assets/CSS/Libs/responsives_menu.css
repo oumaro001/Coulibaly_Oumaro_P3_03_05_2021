@@ -51,6 +51,13 @@ h1{
     width: 100%;
     margin-left: 0rem;
 }
+
+.icon_heart .fas{
+
+  margin-left: -40px;
+
+}
+
   /* version smaertphone  a partir de  540px */
   @media (min-width: 540px) {
     .cards img {
@@ -83,6 +90,12 @@ h1{
     .container_footer {
       margin-left: 0.5rem;
     }
+  }
+
+  .icon_heart .fas{
+
+    margin-left: -40px;
+  
   }
   /* version iPad pro*/
   @media (min-width: 1024px) {
@@ -128,6 +141,11 @@ h1{
       padding: 0 26px;
     }
   }
+  .icon_heart .fas{
+
+    margin-left: -40px;
+  
+  }
   /* version ecran ordinateur 1326px */
   @media (min-width: 1326px) {
     img.La-note-enchante {
@@ -166,7 +184,13 @@ h1{
       width: 38rem;
       margin-left: 0;
     }
+    .icon_heart .fas{
+
+      margin-left: -40px;
+    
+    }
 }
+
   @media (min-width: 1600px) {
     .container {
       height: auto;
@@ -179,6 +203,11 @@ h1{
     }
     .container-title {
       margin-left: 4rem;
+    }
+    .icon_heart .fas{
+
+      margin-left: -40px;
+    
     }
   }
   

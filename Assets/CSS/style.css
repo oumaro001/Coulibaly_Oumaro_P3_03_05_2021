@@ -224,7 +224,7 @@ left: 23px;
 
 .restaurants {
 
-    margin-left: -12px;
+    padding-right: 5%;
 }
 
 section {
@@ -243,6 +243,7 @@ section {
     width: 100%;
     display: flex;
     flex-flow: column wrap;
+    padding-left: 3%;
   
 
 }
