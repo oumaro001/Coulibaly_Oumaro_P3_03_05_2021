@@ -1,4 +1,4 @@
-@media screen and (min-width:360px) and (max-width:700px) {
+@media screen and (min-width:260px) and (max-width:650px) {
 
     body {
 
@@ -66,7 +66,212 @@
 
     .fonctionnement h1 {
 
-        font-size: x-large;
+        font-size: 30px;
+        margin-left: -44%;
+    }
+
+    .btn_menu {
+
+        padding-top: 13px;
+        margin-left: 8px;
+    }
+
+    .btn_function {
+
+        width: 298px;
+    }
+
+
+    /*----restaurant-----*/
+
+    section {
+
+        width: auto;
+    }
+
+    .restaurants>h1 {
+        margin-left: 9%;
+
+    }
+
+    .restaurants{
+
+        margin-left: -6%;
+        width: 100%;
+       
+    }
+
+    .Card_restaurants > img {
+        height: 14rem;
+        width: 100%;
+        object-fit: cover;
+
+
+    }
+
+    .block_card_1{
+
+        
+        display: flex;
+        flex-flow: column wrap; 
+        
+    }
+    
+    .block_card_2{
+    
+       
+        display: flex;
+        flex-flow: column wrap;  
+    
+    }
+    .btn_nouveau >p{
+    
+        left: 71%; 
+        top: -227px;       
+    }
+    
+
+    .Card_restaurants {
+        margin-left: 4%;
+        width: 98%;
+        height: 12.5em;
+        margin-top: 20%;
+
+
+    }
+
+    .Card_restaurants__anciens {
+        margin-left: 4%;
+        width: 98%;
+    height: 12.5em;
+    margin-top: 20%;
+
+    }
+
+    .Card_restaurants__anciens > img {
+        height: 14rem;
+        width: 100%;
+        object-fit: cover;
+
+
+    }
+    
+
+    .fa-heart {
+
+        position: relative;
+        top: -2em;
+        left: 298px;
+        font-size: 30px;
+    }
+
+    .icon_heart {
+        margin-top: 1%;
+        margin-left: -16%;
+    }
+
+    .icon_heart .fas {
+        margin-left: -36px;
+        color: white;
+        font-size: 22px;
+        vertical-align: text-top;
+        margin-top: -51px;
+    }
+
+    /*---footer---*/
+
+    footer {
+
+        margin-top: 60px;
+    }
+
+    .footer>img {
+
+        width: 111px;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*--------smartphone-----------*/
+
+@media screen and (min-width:350px) and (max-width:650px) {
+
+    body {
+
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        grid-template-columns: 100%;
+    }
+
+    header>.logos {
+
+        margin-left: 0px;
+    }
+
+    header>.logos>img {
+
+        width: 200px;
+        margin-top: 2px;
+        margin-left: 25%;
+    }
+
+
+    /*-----Localisation--*/
+
+    .localisation_search {
+
+        margin-left: 28%;
+    }
+
+    .localisation {
+
+        margin-top: 2px;
+        width: auto;
+    }
+
+    /*----section-----*/
+
+    .titre_page_acceuil {
+
+        width: auto;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .titre_page_acceuil>input {
+
+        font-size: 23px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    /*----fonctionnement-----*/
+
+    .fonctionnement {
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        width: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+
+    .fonctionnement h1 {
+
+        font-size: 30px;
         margin-left: -44%;
     }
 
