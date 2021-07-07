@@ -1,4 +1,4 @@
-@media screen and (min-width:260px) and (max-width:650px) {
+@media screen and (min-width:260px) and (max-width:350px) {
 
     body {
 
@@ -67,7 +67,7 @@
     .fonctionnement h1 {
 
         font-size: 30px;
-        margin-left: -44%;
+        margin-left: -26%;
     }
 
     .btn_menu {
@@ -203,7 +203,7 @@
 
 /*--------smartphone-----------*/
 
-@media screen and (min-width:350px) and (max-width:650px) {
+@media screen and (min-width:351px) and (max-width:650px) {
 
     body {
 
@@ -272,7 +272,7 @@
     .fonctionnement h1 {
 
         font-size: 30px;
-        margin-left: -44%;
+        margin-left: -38%;
     }
 
     .btn_menu {
